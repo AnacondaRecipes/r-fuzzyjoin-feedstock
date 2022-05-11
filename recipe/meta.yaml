@@ -23,7 +23,7 @@ build:
 
 requirements:
   build:
-    - r-base
+    - r-base {{ r_version }}
     - r-dplyr
     - r-geosphere
     - r-purrr
@@ -31,7 +31,7 @@ requirements:
     - r-stringr
     - r-tidyr >=0.4.0
   run:
-    - r-base
+    - r-base {{ r_version }}
     - r-dplyr
     - r-geosphere
     - r-purrr
